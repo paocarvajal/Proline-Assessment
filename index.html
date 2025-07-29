@@ -555,11 +555,8 @@
         };
 
         window.addEventListener('DOMContentLoaded', (event) => {
-            console.log('DOM fully loaded and parsed');
-
             const mexicanMarketGrowthChartCanvas = document.getElementById('mexicanMarketGrowthChart');
             if (mexicanMarketGrowthChartCanvas) {
-                console.log('mexicanMarketGrowthChart canvas found.');
                 new Chart(mexicanMarketGrowthChartCanvas, {
                     type: 'line',
                     data: {
@@ -591,13 +588,10 @@
                         }
                     }
                 });
-            } else {
-                console.error('mexicanMarketGrowthChart canvas not found!');
             }
 
             const exportFocusChartCanvas = document.getElementById('exportFocusChart');
             if (exportFocusChartCanvas) {
-                console.log('exportFocusChart canvas found.');
                 new Chart(exportFocusChartCanvas, {
                     type: 'doughnut',
                     data: {
@@ -648,13 +642,10 @@
                         }
                     }
                 });
-            } else {
-                console.error('exportFocusChart canvas not found!');
             }
 
             const exportMarketShareChartCanvas = document.getElementById('exportMarketShareChart');
             if (exportMarketShareChartCanvas) {
-                console.log('exportMarketShareChart canvas found.');
                 new Chart(exportMarketShareChartCanvas, {
                     type: 'bar',
                     data: {
@@ -692,13 +683,10 @@
                         }
                     }
                 });
-            } else {
-                console.error('exportMarketShareChart canvas not found!');
             }
 
             const competitorRadarChartCanvas = document.getElementById('competitorRadarChart');
             if (competitorRadarChartCanvas) {
-                console.log('competitorRadarChart canvas found.');
                 new Chart(competitorRadarChartCanvas, {
                     type: 'radar',
                     data: {
@@ -753,8 +741,6 @@
                         }
                     }
                 });
-            } else {
-                console.error('competitorRadarChart canvas not found!');
             }
         });
 
