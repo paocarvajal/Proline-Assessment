@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proline PVC: Strategic Feasibility for Mexican Market Entry</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #F0F4F8;
+        }
+        /* Brand Colors based on provided image */
+        .brand-dark-green { color: #00594C; }
+        .brand-orange { color: #FF6600; }
+        .brand-charcoal { color: #4A4A4A; }
+        .bg-brand-dark-green { background-color: #00594C; }
+        .bg-brand-orange { background-color: #FF6600; }
+        .bg-brand-light-gray { background-color: #F0F4F8; }
+        .border-brand-dark-green { border-color: #00594C; }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+            max-height: 400px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 350px;
+            }
+        }
+        .kpi-card {
+            background-color: white;
+            border-radius: 0.75rem;
+            padding: 1.5rem;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .kpi-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+        }
+        .section-content {
+            background-color: white;
+            border-radius: 0.75rem;
+            padding: 2rem;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            margin-bottom: 2rem;
+        }
+        .section-content h3 {
+            font-weight: 700;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #00594C; /* Dark Green */
+        }
+        .section-content p, .section-content ul {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: #374151;
+            margin-bottom: 1rem;
+        }
+        .section-content ul {
+            list-style-type: disc;
+            padding-left: 1.25rem;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+        th, td {
+            border: 1px solid #e0e0e0;
+            padding: 0.75rem;
+            text-align: left;
+        }
+        th {
+            background-color: #F0F4F8;
+            font-weight: 600;
+            color: #00594C; /* Dark Green */
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <header class="bg-brand-dark-green text-white text-center py-12 px-4">
+        <h1 class="text-4xl md:text-5xl font-black tracking-tight">PROLINE PVC</h1>
+        <p class="text-xl md:text-2xl mt-2 font-light text-gray-300">Strategic Feasibility for Mexican Market Entry</p>
+        <p class="mt-4 max-w-3xl mx-auto text-gray-400">An in-depth analysis of leveraging Turkish manufacturing excellence to capture growth opportunities in Mexico's dynamic construction sector, focusing on key data and strategic insights.</p>
+    </header>
+
+    <main class="container mx-auto p-4 md:p-8">
+        
+        <section id="executive-summary" class="mb-12 section-content">
+            <h2 class="text-3xl font-bold text-center mb-8 brand-dark-green">Executive Summary</h2>
+            <p>This report evaluates the strategic feasibility of introducing Proline PVC profiles, manufactured by Gürmen PVC Plastik İnşaat Sanayi ve Ticaret A.Ş. in Turkey, into the Mexican market. The analysis encompasses a deep dive into Proline PVC's company profile, product capabilities, raw material sourcing, and market position within Turkey, alongside a comprehensive assessment of the Mexican PVC profile market, its demand drivers, competitive landscape, and distribution channels. A critical examination of the geopolitical and trade environment between Turkey and Mexico, including import regulations, customs duties, and logistical considerations, is also presented.</p>
+            <p>Proline PVC stands out as an established, export-oriented manufacturer with a comprehensive product portfolio and a strong commitment to eco-friendly, non-leaded production. Its extensive international experience and adherence to European quality standards provide a solid foundation for global expansion. The Mexican market for plastic doors and windows exhibits robust growth, driven by increasing construction activities and a rising demand for energy-efficient and durable building materials. This presents a significant opportunity for Proline PVC to leverage its product strengths.</p>
+            <p>However, market entry is not without challenges. The presence of numerous "Proline" entities globally necessitates a clear brand differentiation strategy. In Mexico, navigating the mandatory Norma Oficial Mexicana (NOM) certification process and the current temporary import tariffs on plastics from non-Free Trade Agreement (FTA) countries represents a critical hurdle. Despite these challenges, the strengthening bilateral relations between Turkey and Mexico, coupled with ongoing FTA discussions, offer a favorable long-term outlook.</p>
+            <p>The assessment concludes that importing Proline PVC profiles into Mexico is a viable endeavor, provided a well-structured market entry strategy is implemented. Key recommendations include forming strategic distribution partnerships, prioritizing NOM certification, carefully managing pricing in light of current tariffs, and emphasizing the unique value proposition of quality, sustainability, and technical support.</p>
+        </section>
+
+        <section id="company-profile" class="mb-12">
+            <h2 class="text-3xl font-bold text-center mb-8 brand-dark-green">Proline PVC: A Global Leader in Quality</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-center mb-8">
+                <div class="kpi-card">
+                    <p class="text-5xl font-extrabold brand-dark-green">2002</p>
+                    <p class="mt-2 text-lg font-semibold">Year Established</p>
+                    <p class="text-sm text-gray-600">Building a legacy of quality from Izmir, Turkey.</p>
+                </div>
+                <div class="kpi-card">
+                    <p class="text-5xl font-extrabold brand-dark-green">45</p>
+                    <p class="mt-2 text-lg font-semibold">Countries</p>
+                    <p class="text-sm text-gray-600">An extensive global footprint across three continents.</p>
+                </div>
+                <div class="kpi-card">
+                    <p class="text-5xl font-extrabold brand-dark-green">1,100+</p>
+                    <p class="mt-2 text-lg font-semibold">Customers</p>
+                    <p class="text-sm text-gray-600">A trusted partner for businesses worldwide.</p>
+                </div>
+                <div class="kpi-card">
+                    <p class="text-5xl font-extrabold brand-dark-green">🌿</p>
+                    <p class="mt-2 text-lg font-semibold">Eco-Friendly</p>
+                    <p class="text-sm text-gray-600">Committed to non-leaded, sustainable production.</p>
+                </div>
+            </div>
+
+            <div class="section-content">
+                <h3>Company Background & Evolution</h3>
+                <p>Proline PVC, operating as Gürmen PVC Plastik İnşaat Sanayi ve Ticaret A.Ş., was founded in June 2002 in Izmir, Turkey, with the explicit goal of manufacturing PVC door and window profiles. After extensive research and development, full-scale manufacturing commenced on July 3, 2004. The company has shown consistent growth, relocating to the Izmir Free Zone in 2013 to facilitate the export of ready-made doors and windows produced with advanced CNC machining. Further diversification in 2016 included a production facility for decorative door panels. While specific ownership details are not public, the company's official website (www.prolinepvc.com) lists headquarters in Izmir and a factory in Manisa.</p>
+
+                <h3>Product Portfolio & Unique Selling Propositions</h3>
+                <p>Proline PVC offers a comprehensive range of PVC profiles for window and door systems, including series like PRO5003, NEW PRO6003, PRO6004, PRO7005, PRO8106, NEW PROSLIDE-70, and PROSLIDE-84. These profiles vary in depth (50mm to 81mm) and internal chambers (3 to 6), alongside specialized sliding systems. Their versatility supports a wide array of applications, from standard windows to various door types. Key differentiators include:</p>
+                <ul class="list-disc list-inside ml-4">
+                    <li><strong>"ECO-FRIENDLY NON-LEADED PRODUCTION":</strong> A strong commitment to environmentally conscious manufacturing.</li>
+                    <li><strong>"The valuable brand of Turkey":</strong> Emphasizing national recognition and quality.</li>
+                    <li><strong>Global Footprint:</strong> Operations in 45 countries serving over 1,100 customers, demonstrating vast international experience.</li>
+                    <li><strong>Technological Innovation:</strong> Continuous evolution and introduction of new products like the "NEW PRO6003 Series" and "NEW! Sliding Insect Frame with Cornice".</li>
+                    <li><strong>Professional Support:</strong> Offering technical assistance and pricing information for projects.</li>
+                </ul>
+
+                <h3>Quality Assurance & Certifications</h3>
+                <p>Proline PVC publicly affirms its commitment to stringent quality and environmental standards. Their "Quality and Environment" section mentions "Certificates," implying formal validations. The "ECO-FRIENDLY NON-LEADED PRODUCTION" is a cornerstone of their quality philosophy, eliminating lead from PVC formulations. Their Sedex (Supplier Ethical Data Exchange) Ref. Code: ZC416705607 indicates a commitment to ethical sourcing. Furthermore, CE Marking signifies conformity to essential health, safety, and environmental protection requirements for products sold in the European Economic Area (EEA), underscoring their adherence to European quality standards. This robust compliance foundation is favorable for meeting Mexico's mandatory NOM certifications.</p>
+
+                <h3>Reputation & Customer Perception</h3>
+                <p>Positioned as a "valuable brand of Turkey," Proline PVC enjoys strong domestic standing. Its significant international activities, with exports to 45 countries and over 1,100 customers, bolster its reputation. Data from Volza.com highlights "PROLINE YAPI SISTEMLERI PAZARLAMA VE TICARET ANONIM SIRKETI" as the second-largest exporter of PVC door panels from Turkey (15% share, Nov 2023-Oct 2024), indicating strong B2B credibility and operational capacity for international trade. However, direct end-user reviews for this specific Turkish entity are not readily available, suggesting a need to build brand awareness among Mexican consumers and local distributors.</p>
+            </div>
+        </section>
+
+        <section id="raw-materials" class="mb-12 section-content">
+            <h2 class="text-3xl font-bold text-center mb-8 brand-dark-green">Raw Material Sourcing & Supply Chain Analysis</h2>
+            <h3>PVC Raw Material Fundamentals</h3>
+            <p>Polyvinyl chloride (PVC) is a versatile plastic material derived from hydrocarbon-based raw materials (typically ethylene from natural gas or petroleum) and chlorine (sourced from brine). Ethylene and chlorine combine to form ethylene dichloride, which is then converted into vinyl chloride monomer (VCM), and finally polymerized into PVC resin. Before use, PVC resin is blended with additives like impact modifiers, stabilizers, pigments, and UV modifiers. Notably, the industry has significantly reduced the use of heavy metal stabilizers like lead and cadmium.</p>
+
+            <h3>Proline PVC's Sourcing Approach</h3>
+            <p>Proline PVC's explicit commitment to "ECO-FRIENDLY NON-LEADED PRODUCTION" signifies a raw material sourcing strategy that prioritizes lead-free stabilizers, aligning with modern environmental and health standards. This approach positions them favorably in markets with strict chemical regulations and appeals to environmentally conscious consumers, potentially streamlining NOM certification processes related to product composition. The broader Turkish PVC industry often uses European-origin raw materials and employs "Fully-Automatic Mixing" for consistency, developing acrylic-based formulas resistant to various climates, often incorporating calcium zinc and maintaining low calcite ratios.</p>
+
+            <h3>Turkish PVC Resin Market & Dynamics</h3>
+            <p>The Turkish PVC resin market relies on both domestic production (PETKİM, 150,000 tons/year capacity) and significant imports. In 2017, imports reached 860,000 tons, with recent data (Sep 2023-Aug 2024) showing 1,963 shipments primarily from the United States, Mexico, and China. This heavy reliance on international suppliers exposes Turkish manufacturers, including Proline PVC, to global PVC resin price fluctuations and supply chain disruptions. Major suppliers in Turkey include Nidaplast Plastik Kimya, Polivinil Plastic Inc., and Noorzad Petrokimya. Global market dynamics, influenced by demand in major consuming regions like India and ASEAN countries, directly impact Turkish PVC prices. Recent trends (May 2024) showed PVC offers near year-to-date lows due to weak buying interest and ample global supply, indicating a buyer's market. Proline PVC's cost structure and competitive pricing in Mexico will be influenced by these global market conditions, necessitating a robust procurement strategy.</p>
+        </section>
+
+        <section id="market-analysis" class="mb-12">
+            <h2 class="text-3xl font-bold text-center mb-2 brand-dark-green">The Mexican Market Opportunity</h2>
+            <p class="text-center text-gray-600 max-w-2xl mx-auto mb-8">Mexico's construction sector is expanding, driven by infrastructure projects and a growing demand for energy-efficient materials, creating a fertile ground for high-quality PVC profiles.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="kpi-card">
+                    <h3 class="text-xl font-bold text-center mb-4 brand-dark-green">Plastic Doors & Windows Market Growth (Mexico)</h3>
+                    <p class="text-sm text-gray-600 text-center mb-4">The Mexican market for plastic doors and windows demonstrates a positive growth trajectory. In 2024, this market saw a significant 28% increase, reaching a value of $559 million, thereby ending a three-year period of decline. The broader Mexican Windows and Doors Market is also projected to experience varied but overall positive growth rates between 2025 and 2029, with an anticipated acceleration to 7.09% in 2027.</p>
+                    <div class="chart-container">
+                        <canvas id="mexicanMarketGrowthChart"></canvas>
+                    </div>
+                </div>
+                <div class="kpi-card">
+                    <h3 class="text-xl font-bold text-center mb-4 brand-dark-green">Proline's Export Focus</h3>
+                     <p class="text-sm text-gray-600 text-center mb-4">Proline PVC exhibits a substantial global presence and a highly export-oriented business model. The company dedicates 40% of its total PVC profile production to international markets across three continents: Asia (45% of exports), Europe (20% of exports), and Africa (35% of exports). Furthermore, all of its PVC joinery production is exported, primarily to European countries and dozens of other nations across four continents. This extensive reach is also reflected in their stated presence in 45 countries and service to over 1,100 customers worldwide.</p>
+                    <div class="chart-container">
+                        <canvas id="exportFocusChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-content mt-8">
+                <h3>Market Drivers & Trends in Mexico</h3>
+                <p>The Mexican market for PVC profiles is propelled by several key drivers and evolving trends. A primary catalyst is the robust growth of the construction industry, fueled by ongoing urbanization, population expansion, and significant infrastructure development projects across the country. Large-scale initiatives such as the Tren Maya and the Dos Bocas Refinery are specifically amplifying the demand for various flexible PVC applications.</p>
+                <p>Beyond sheer volume, there is an increasing demand for energy-efficient building solutions. This trend, coupled with government initiatives that promote sustainable building practices, is driving the adoption of high-performance PVC products. PVC's inherent advantages, including its durability, low maintenance requirements, and cost-effectiveness compared to alternative materials like wood or aluminum, further contribute to its growing demand. Proline PVC's commitment to "eco-friendly non-leaded production" directly addresses these emerging market preferences, offering a strategic differentiation.</p>
+
+                <h3>Competitive Landscape in Mexico</h3>
+                <p>The Mexican PVC window and door system market is characterized by a diverse and well-established competitive landscape, featuring a mix of prominent multinational corporations and strong regional players. Major global brands with a presence include Profine GmbH, REHAU AG & Co., Simonton Windows, Ply Gem, VEKA, Deceuninck, and Aluplast. Robust local manufacturers like Custom Profile (plastic extrusion) and PTM - Plastics Technology de México (PVC pipes/fittings) also contribute. The market for plastic additives, impacting PVC profile manufacturing, is somewhat fragmented with key companies like Mexichem (Orbia), LyondellBasell Industries, and BASF Mexicana. This competitive environment necessitates a clear differentiation strategy for Proline PVC.</p>
+
+                <h3>Distribution Channels & Logistics</h3>
+                <p>Mexico possesses a developed logistics and distribution infrastructure, leveraging its 13 trade agreements with 50 countries. Key distribution channels for building materials involve importers and wholesalers, including large retail chains. Geographic segmentation is advised for covering the expansive Mexican market. While transportation logistics within Mexico are functional, they can be expensive (8-15% of product costs), primarily moving by truck. This cost factor will be critical for Proline PVC's pricing strategies and supply chain planning.</p>
+            </div>
+        </section>
+
+        <section id="competitive-landscape" class="mb-12">
+             <h2 class="text-3xl font-bold text-center mb-2 brand-dark-green">Competitive Landscape</h2>
+             <p class="text-center text-gray-600 max-w-2xl mx-auto mb-8">Proline PVC enters a mature Mexican market with established global and local players. Differentiation through quality, sustainability, and service will be key to capturing market share.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                 <div class="kpi-card">
+                    <h3 class="text-xl font-bold text-center mb-4 brand-dark-green">Turkish PVC Door Panel Exports</h3>
+                    <p class="text-sm text-gray-600 text-center mb-4">Proline holds a commanding 15% share of Turkey's PVC door panel exports, ranking second and demonstrating significant B2B strength, indicating its capability and competitiveness on a global scale.</p>
+                    <div class="chart-container h-64 md:h-auto">
+                        <canvas id="exportMarketShareChart"></canvas>
+                    </div>
+                </div>
+                <div class="kpi-card">
+                    <h3 class="text-xl font-bold text-center mb-4 brand-dark-green">Proline vs. Avg. Global Competitor (Mexico)</h3>
+                    <p class="text-sm text-gray-600 text-center mb-4">Proline's strengths in quality and eco-friendliness position it well against established competitors in the Mexican market, though local presence and brand recognition will need to be built.</p>
+                    <div class="chart-container">
+                        <canvas id="competitorRadarChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-content mt-8">
+                <h3>Key Domestic Competitors (Turkey) & Industry Trends</h3>
+                <p>The Turkish PVC window and door system market is highly competitive, featuring global brands like VEKA, Profine Group, and Deceuninck, alongside strong domestic players such as Fırat. Other notable manufacturers include Winturk PVC, Wintech, and YILDIZPVC. This intense domestic competition fosters continuous innovation and high quality standards, preparing Proline PVC for international export.</p>
+                <p>The Turkish plastics industry is significant, ranking second in Europe and sixth globally in production capacity. In 2022, Turkey produced 434,540 tons of PVC profiles, with a substantial portion exported. However, the Turkish PVC market faced challenges in 2023-2024, including stagnant consumption and thin profit margins, prompting manufacturers like Proline PVC to increasingly look towards international markets like Mexico to offset domestic weaknesses.</p>
+            </div>
+        </section>
+
+        <section id="geopolitical-trade" class="mb-12 section-content">
+            <h2 class="text-3xl font-bold text-center mb-8 brand-dark-green">Geopolitical & Trade Environment: Turkey-Mexico Corridor</h2>
+            <h3>Bilateral Relations & FTA Outlook</h3>
+            <p>Diplomatic relations between Mexico and Turkey were established in 1928 and elevated to a "strategic partnership" in 2013, marked by frequent high-level political engagement. Mexican Foreign Minister Marcelo Ebrard's visit to Turkey in November 2022 initiated discussions for a comprehensive Free Trade Agreement (FTA), with an ambitious goal to reach a trade volume of $5 billion. In 2023, the total trade volume amounted to US $1.9 billion. This strengthening bilateral environment significantly reduces political risk and offers a favorable long-term outlook for Proline PVC, as a future FTA could lead to reduced tariffs and streamlined customs procedures.</p>
+
+            <h3>Political Stability & Economic Outlook (Turkey)</h3>
+            <p>Turkey's political stability, as per the World Bank's index, showed slight improvement in 2023 but remains below the global average, indicating ongoing perceptions of political risk. Economically, Turkey experienced robust GDP growth (4.5% in 2023, 3.2% in 2024), projected to remain stable at 3.1% in 2025. However, persistent high inflation remains a significant challenge, despite tight monetary policies. Turkey's substantial external debt and reliance on short-term financing make it vulnerable to global refinancing conditions and currency fluctuations. These macroeconomic volatilities could impact Proline PVC's operational costs and export competitiveness, necessitating robust financial planning. Conversely, Turkey's strategic East-West location, numerous free-trade agreements, and robust incentive structure for foreign investors offer strategic advantages.</p>
+
+            <h3>Logistics & Shipping</h3>
+            <p>The logistical infrastructure between Turkey and Mexico is well-established, offering viable sea and air freight options. This efficiency significantly reduces a potential barrier to entry for Proline PVC.</p>
+            <div class="w-full overflow-x-auto">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Mode of Transport</th>
+                            <th>Origin (Turkey)</th>
+                            <th>Destination (Mexico)</th>
+                            <th>Transit Time (Approx.)</th>
+                            <th>Frequency</th>
+                            <th>Key Carriers</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Sea Freight</td>
+                            <td>Canakkale (TRCKZ)</td>
+                            <td>Veracruz (MXVER)</td>
+                            <td>21 days 3 hours</td>
+                            <td>Every 1-2 weeks</td>
+                            <td>MSC, Hapag-Lloyd, Maersk</td>
+                        </tr>
+                        <tr>
+                            <td>Air Freight (Passenger)</td>
+                            <td>Istanbul Airport (IST)</td>
+                            <td>Cancun (CUN)</td>
+                            <td>20 hours 25 minutes</td>
+                            <td>Daily</td>
+                            <td>Air France, Air Europa</td>
+                        </tr>
+                        <tr>
+                            <td>Air Freight (Cargo)</td>
+                            <td>Istanbul Airport (IST)</td>
+                            <td>Guadalajara (GDL)</td>
+                            <td>1 day 1 hour</td>
+                            <td>2-4 times a week</td>
+                            <td>Lufthansa</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="text-sm text-gray-600 mt-2">This table provides clear, actionable data on available shipping options, enabling estimation of lead times and costs crucial for supply chain planning. It highlights the reliability and capacity for large-volume movements, reducing initial risks.</p>
+        </section>
+
+        <section id="import-regulations" class="mb-12 section-content">
+            <h2 class="text-3xl font-bold text-center mb-8 brand-dark-green">Mexican Import Regulations & Customs</h2>
+            <h3>Regulatory Framework & Documentation</h3>
+            <p>Importing goods into Mexico involves navigating a structured regulatory landscape with key authorities like the National Customs Agency of Mexico (ANAM), the Tax Service Administration (SAT), and the Ministry of Economy (SE). Mandatory registrations include the Official Register of Importers (Padrón de Importadores) for Mexican businesses. The cornerstone document is the "Pedimento de Importación" (Customs Declaration Form), along with a Commercial Invoice (in Spanish), Bill of Lading, Certificate of Origin, and Packing List. All processes must be conducted through Mexico's official foreign trade web page, "Ventanilla Digital Mexicana de Comercio Exterior." Non-compliance carries severe penalties, including shipment delays or seizures and monetary fines.</p>
+
+            <h3>NOM Certification: A Critical Gateway</h3>
+            <p>Norma Oficial Mexicana (NOM) standards are crucial and mandatory for products entering the Mexican market, ensuring safety, quality, and environmental protection. "Plastic products" and "Construction and mechanical items" are highly relevant categories for PVC profiles. The process involves determination of applicability, identification of the precise NOM standard, preparation of documentation and product, application to an accredited certification body (e.g., NYCE, ANCE, Intertek), testing at an accredited laboratory (and sometimes manufacturing facility inspection), certification issuance, and continuous maintenance (annual renewal). While Proline PVC's existing CE marking provides a strong quality foundation, direct compliance with Mexican NOM standards is non-negotiable and requires significant upfront investment in time and resources, ideally with expert local partners.</p>
+
+            <h3>Customs Duties & Tariffs</h3>
+            <p>The import of PVC profiles into Mexico is subject to specific customs duties and taxes. A critical development occurred on August 15, 2023, when the Mexican Ministry of Economy implemented temporary import tariffs ranging from 5% to 25% for 392 HS codes, including "plastics," specifically applicable to products from non-Free Trade Agreement (FTA) countries. As Turkey currently lacks an FTA with Mexico, Proline PVC's products would likely be subject to these increased tariffs, potentially impacting price competitiveness. Despite this, ongoing FTA discussions initiated in November 2022 represent a significant future opportunity for duty reduction. In addition to duties, a 16% Value Added Tax (VAT) is applied to imports, calculated on the total value of the goods (CIF value plus any applicable duties and other charges levied before customs clearance).</p>
+            <div class="w-full overflow-x-auto">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Código SA</th>
+                            <th>Descripción</th>
+                            <th>Tasa Arancelaria Predeterminada (Región Fronteriza de México)</th>
+                            <th>Tasa de IVA (México)</th>
+                            <th>Aumento Arancelario Temporal (Aplicabilidad)</th>
+                            <th>Estado Actual (TLC Turquía-México)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>3916200300</td>
+                            <td>PERFILES DE PVC</td>
+                            <td>Varía / No especificado</td>
+                            <td>16%</td>
+                            <td>Sí, para países sin TLC (5-25%)</td>
+                            <td>Sin TLC aún, discusiones en curso</td>
+                        </tr>
+                        <tr>
+                            <td>3925200100</td>
+                            <td>VENTANA TERMINADA SIN VIDRIO</td>
+                            <td>5.00%</td>
+                            <td>16%</td>
+                            <td>Sí, para países sin TLC (5-25%)</td>
+                            <td>Sin TLC aún, discusiones en curso</td>
+                        </tr>
+                        <tr>
+                            <td>3925909900</td>
+                            <td>PIEZAS PLASTICAS</td>
+                            <td>Varía / No especificado</td>
+                            <td>16%</td>
+                            <td>Sí, para países sin TLC (5-25%)</td>
+                            <td>Sin TLC aún, discusiones en curso</td>
+                        </tr>
+                        <tr>
+                            <td>9608200100</td>
+                            <td>ROTULADOR</td>
+                            <td>Varía / No especificado</td>
+                            <td>16%</td>
+                            <td>Sí, para países sin TLC (5-25%)</td>
+                            <td>Sin TLC aún, discusiones en curso</td>
+                        </tr>
+                        <tr>
+                            <td>5806109900</td>
+                            <td>FELPA CINTA</td>
+                            <td>Varía / No especificado</td>
+                            <td>16%</td>
+                            <td>Sí, para países sin TLC (5-25%)</td>
+                            <td>Sin TLC aún, discusiones en curso</td>
+                        </tr>
+                        <tr>
+                            <td>7318140100</td>
+                            <td>TORNILLOS</td>
+                            <td>Varía / No especificado</td>
+                            <td>16%</td>
+                            <td>Sí, para países sin TLC (5-25%)</td>
+                            <td>Sin TLC aún, discusiones en curso</td>
+                        </tr>
+                        <tr>
+                            <td>7604290200</td>
+                            <td>PERFILES DE ALUMINIO ALEADO</td>
+                            <td>Varía / No especificado</td>
+                            <td>16%</td>
+                            <td>Sí, para países sin TLC (5-25%)</td>
+                            <td>Sin TLC aún, discusiones en curso</td>
+                        </tr>
+                        <tr>
+                            <td>7216619900</td>
+                            <td>REFUERZO</td>
+                            <td>Varía / No especificado</td>
+                            <td>16%</td>
+                            <td>Sí, para países sin TLC (5-25%)</td>
+                            <td>Sin TLC aún, discusiones en curso</td>
+                        </tr>
+                        <tr>
+                            <td>4008299901</td>
+                            <td>PERFILES DE CAUCHO</td>
+                            <td>Varía / No especificado</td>
+                            <td>16%</td>
+                            <td>Sí, para países sin TLC (5-25%)</td>
+                            <td>Sin TLC aún, discusiones en curso</td>
+                        </tr>
+                        <tr>
+                            <td>8302410699</td>
+                            <td>HERRAJES</td>
+                            <td>Varía / No especificado</td>
+                            <td>16%</td>
+                            <td>Sí, para países sin TLC (5-25%)</td>
+                            <td>Sin TLC aún, discusiones en curso</td>
+                        </tr>
+                        <tr>
+                            <td>4008110100</td>
+                            <td>TIRA DE CAUCHO CELULAR</td>
+                            <td>Varía / No especificado</td>
+                            <td>16%</td>
+                            <td>Sí, para países sin TLC (5-25%)</td>
+                            <td>Sin TLC aún, discusiones en curso</td>
+                        </tr>
+                        <tr>
+                            <td>8301400100</td>
+                            <td>CILINDRO CON LLAVE</td>
+                            <td>Varía / No especificado</td>
+                            <td>16%</td>
+                            <td>Sí, para países sin TLC (5-25%)</td>
+                            <td>Sin TLC aún, discusiones en curso</td>
+                        </tr>
+                        <tr>
+                            <td>7616999999</td>
+                            <td>CONTRAFORMA DE ALUMINIO</td>
+                            <td>Varía / No especificado</td>
+                            <td>16%</td>
+                            <td>Sí, para países sin TLC (5-25%)</td>
+                            <td>Sin TLC aún, discusiones en curso</td>
+                        </tr>
+                        <tr>
+                            <td>9017209900</td>
+                            <td>PLANTILLA DE PERFORACION</td>
+                            <td>Varía / No especificado</td>
+                            <td>16%</td>
+                            <td>Sí, para países sin TLC (5-25%)</td>
+                            <td>Sin TLC aún, discusiones en curso</td>
+                        </tr>
+                        <tr>
+                            <td>8207700399</td>
+                            <td>FRESADORA</td>
+                            <td>Varía / No especificado</td>
+                            <td>16%</td>
+                            <td>Sí, para países sin TLC (5-25%)</td>
+                            <td>Sin TLC aún, discusiones en curso</td>
+                        </tr>
+                        <tr>
+                            <td>3923500100</td>
+                            <td>TAPAS O TAPONES</td>
+                            <td>Varía / No especificado</td>
+                            <td>16%</td>
+                            <td>Sí, para países sin TLC (5-25%)</td>
+                            <td>Sin TLC aún, discusiones en curso</td>
+                        </tr>
+                        <tr>
+                            <td>8302109900</td>
+                            <td>BISAGRAS</td>
+                            <td>Varía / No especificado</td>
+                            <td>16%</td>
+                            <td>Sí, para países sin TLC (5-25%)</td>
+                            <td>Sin TLC aún, discusiones en curso</td>
+                        </tr>
+                        <tr>
+                            <td>7306300300</td>
+                            <td>REFUERZO</td>
+                            <td>Varía / No especificado</td>
+                            <td>16%</td>
+                            <td>Sí, para países sin TLC (5-25%)</td>
+                            <td>Sin TLC aún, discusiones en curso</td>
+                        </tr>
+                        <tr>
+                            <td>8479899999</td>
+                            <td>MULTIDRIVE SYSTEM // MECANISMO DE APERTURA DE PUERTA</td>
+                            <td>Varía / No especificado</td>
+                            <td>16%</td>
+                            <td>Sí, para países sin TLC (5-25%)</td>
+                            <td>Sin TLC aún, discusiones en curso</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="text-sm text-gray-600 mt-2">Esta tabla proporciona una visión financiera clara de los posibles costos de importación, destacando el riesgo financiero actual debido al aumento arancelario temporal y subrayando las negociaciones en curso del TLC como una futura oportunidad para la reducción de costos.</p>
+        </section>
+
+    </main>
+
+    <footer class="bg-brand-dark-green text-white py-8 px-4">
+        <div class="container mx-auto text-center">
+            <p class="font-bold text-lg">Proline PVC - The valuable brand of Turkey that every home deserves.</p>
+            <p class="text-sm text-gray-400 mt-2">This infographic is based on a strategic feasibility study. It is intended for informational purposes and does not constitute financial advice.</p>
+            <p class="text-xs text-gray-500 mt-4">www.prolinepvc.com</p>
+        </div>
+    </footer>
+
+    <script>
+        const brandColors = {
+            darkGreen: '#00594C',
+            orange: '#FF6600',
+            charcoal: '#4A4A4A',
+            lightGray: '#F0F4F8',
+            accentRed: '#FF6361', /* Keeping some accents for charts */
+            accentYellow: '#FFA600',
+            accentPurple: '#BC5090',
+            accentGreen: '#28a745',
+        };
+
+        function wrapLabel(label) {
+            const maxLength = 16;
+            if (typeof label === 'string' && label.length > maxLength) {
+                const words = label.split(' ');
+                const lines = [];
+                let currentLine = '';
+                words.forEach(word => {
+                    if ((currentLine + word).length > maxLength) {
+                        lines.push(currentLine.trim());
+                        currentLine = '';
+                    }
+                    currentLine += word + ' ';
+                });
+                lines.push(currentLine.trim());
+                return lines;
+            }
+            return label;
+        }
+        
+        const tooltipTitleCallback = (tooltipItems) => {
+            const item = tooltipItems[0];
+            let label = item.chart.data.labels[item.dataIndex];
+            if (Array.isArray(label)) {
+                return label.join(' ');
+            }
+            return label;
+        };
+
+        const defaultChartOptions = {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    labels: {
+                        color: brandColors.charcoal, /* Adjusted for new palette */
+                        font: {
+                            family: "'Inter', sans-serif"
+                        }
+                    }
+                },
+                tooltip: {
+                    callbacks: {
+                        title: tooltipTitleCallback
+                    },
+                    backgroundColor: brandColors.darkGreen, /* Adjusted for new palette */
+                    titleFont: {
+                        size: 14,
+                        family: "'Inter', sans-serif"
+                    },
+                    bodyFont: {
+                        size: 12,
+                        family: "'Inter', sans-serif"
+                    }
+                }
+            },
+            scales: {
+                y: {
+                    ticks: { 
+                        color: brandColors.charcoal, /* Adjusted for new palette */
+                        font: { family: "'Inter', sans-serif" }
+                    },
+                    grid: { color: '#e0e0e0' }
+                },
+                x: {
+                    ticks: { 
+                        color: brandColors.charcoal, /* Adjusted for new palette */
+                        font: { family: "'Inter', sans-serif" }
+                    },
+                    grid: { display: false }
+                }
+            }
+        };
+
+        window.addEventListener('DOMContentLoaded', (event) => {
+            console.log('DOM fully loaded and parsed');
+
+            const mexicanMarketGrowthChartCanvas = document.getElementById('mexicanMarketGrowthChart');
+            if (mexicanMarketGrowthChartCanvas) {
+                console.log('mexicanMarketGrowthChart canvas found.');
+                new Chart(mexicanMarketGrowthChartCanvas, {
+                    type: 'line',
+                    data: {
+                        labels: ['2021-2023', '2024', '2027 (Proj.)'],
+                        datasets: [{
+                            label: 'Market Value ($M)',
+                            data: [437, 559, 650],
+                            borderColor: brandColors.orange,
+                            backgroundColor: 'rgba(255, 102, 0, 0.1)',
+                            fill: true,
+                            tension: 0.4,
+                            pointBackgroundColor: brandColors.orange,
+                            pointRadius: 5
+                        }]
+                    },
+                    options: {
+                        ...defaultChartOptions,
+                        scales: {
+                            y: {
+                                ...defaultChartOptions.scales.y,
+                                beginAtZero: false,
+                                ticks: {
+                                    callback: function(value) {
+                                        return '$' + value + 'M';
+                                    }
+                                }
+                            },
+                            x: defaultChartOptions.scales.x
+                        }
+                    }
+                });
+            } else {
+                console.error('mexicanMarketGrowthChart canvas not found!');
+            }
+
+            const exportFocusChartCanvas = document.getElementById('exportFocusChart');
+            if (exportFocusChartCanvas) {
+                console.log('exportFocusChart canvas found.');
+                new Chart(exportFocusChartCanvas, {
+                    type: 'doughnut',
+                    data: {
+                        labels: ['Asia', 'Africa', 'Europe'],
+                        datasets: [{
+                            label: 'Export Distribution',
+                            data: [45, 35, 20],
+                            backgroundColor: [
+                                brandColors.darkGreen,
+                                brandColors.orange,
+                                brandColors.charcoal
+                            ],
+                            borderColor: brandColors.lightGray,
+                            borderWidth: 4
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: {
+                                position: 'bottom',
+                                labels: {
+                                    color: brandColors.charcoal,
+                                    font: {
+                                        family: "'Inter', sans-serif"
+                                    }
+                                }
+                            },
+                            tooltip: {
+                                callbacks: {
+                                    title: tooltipTitleCallback,
+                                    label: function(context) {
+                                        let label = context.label || '';
+                                        if (label) {
+                                            label += ': ';
+                                        }
+                                        if (context.parsed !== null) {
+                                            label += context.parsed + '%';
+                                        }
+                                        return label;
+                                    }
+                                },
+                                backgroundColor: brandColors.darkGreen,
+                                titleFont: { size: 14, family: "'Inter', sans-serif" },
+                                bodyFont: { size: 12, family: "'Inter', sans-serif" }
+                            }
+                        }
+                    }
+                });
+            } else {
+                console.error('exportFocusChart canvas not found!');
+            }
+
+            const exportMarketShareChartCanvas = document.getElementById('exportMarketShareChart');
+            if (exportMarketShareChartCanvas) {
+                console.log('exportMarketShareChart canvas found.');
+                new Chart(exportMarketShareChartCanvas, {
+                    type: 'bar',
+                    data: {
+                        labels: ['Proline PVC', 'Other Turkish Exporters'],
+                        datasets: [{
+                            label: 'Market Share (%)',
+                            data: [15, 85],
+                            backgroundColor: [brandColors.darkGreen, '#D3DCE6'],
+                            borderColor: [brandColors.charcoal, '#B0BCC8'],
+                            borderWidth: 1,
+                            borderRadius: 5
+                        }]
+                    },
+                    options: {
+                        ...defaultChartOptions,
+                        indexAxis: 'y',
+                        scales: {
+                            y: {
+                                ...defaultChartOptions.scales.y,
+                                grid: { display: false }
+                            },
+                            x: {
+                                ...defaultChartOptions.scales.x,
+                                max: 100,
+                                ticks: {
+                                    callback: function(value) {
+                                        return value + '%';
+                                    }
+                                }
+                            }
+                        },
+                        plugins: {
+                            ...defaultChartOptions.plugins,
+                            legend: { display: false }
+                        }
+                    }
+                });
+            } else {
+                console.error('exportMarketShareChart canvas not found!');
+            }
+
+            const competitorRadarChartCanvas = document.getElementById('competitorRadarChart');
+            if (competitorRadarChartCanvas) {
+                console.log('competitorRadarChart canvas found.');
+                new Chart(competitorRadarChartCanvas, {
+                    type: 'radar',
+                    data: {
+                        labels: ['Brand Recognition', 'Product Range', 'Sustainability Focus', 'Local Presence', 'Price Competitiveness'],
+                        datasets: [
+                            {
+                                label: 'Proline PVC',
+                                data: [3, 5, 5, 2, 4],
+                                fill: true,
+                                backgroundColor: 'rgba(0, 89, 76, 0.2)',
+                                borderColor: brandColors.darkGreen,
+                                pointBackgroundColor: brandColors.darkGreen,
+                            }, {
+                                label: 'Avg. Global Competitor',
+                                data: [5, 4, 3, 5, 3],
+                                fill: true,
+                                backgroundColor: 'rgba(255, 102, 0, 0.2)',
+                                borderColor: brandColors.orange,
+                                pointBackgroundColor: brandColors.orange,
+                            }
+                        ]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: {
+                                position: 'bottom',
+                                labels: {
+                                    color: brandColors.charcoal,
+                                    font: { family: "'Inter', sans-serif" }
+                                }
+                            },
+                            tooltip: defaultChartOptions.plugins.tooltip
+                        },
+                        scales: {
+                            r: {
+                                angleLines: { color: '#e0e0e0' },
+                                grid: { color: '#e0e0e0' },
+                                pointLabels: {
+                                    font: { size: 12, family: "'Inter', sans-serif" },
+                                    color: brandColors.charcoal
+                                },
+                                ticks: {
+                                    backdropColor: 'transparent',
+                                    color: brandColors.darkGreen,
+                                    stepSize: 1
+                                },
+                                min: 0,
+                                max: 5
+                            }
+                        }
+                    }
+                });
+            } else {
+                console.error('competitorRadarChart canvas not found!');
+            }
+        });
+
+    </script>
+</body>
+</html>
